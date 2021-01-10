@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-name {
+  font-weight: 700;
+  margin: 0;
+  padding-left: 10px;
+  text-align: left;
+  display: flow-root;
+}
+
+.contact-number {
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 60%;
+  margin-left: 10%;
+}
+
+.contact {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(53, 52, 51);
+
+  background-color: rgba(163, 250, 255, 0.2);
+}
+
+.contact + .contact {
+  margin-top: 5px;
+}
+
+.contact-icon,
+.contact-gender {
+  width: 35px;
+  height: 35px;
+}
+.contact-icon {
+  float: left;
+}
+
+.contact-gender {
+  float: right;
+  margin-top: -20px;
+}
